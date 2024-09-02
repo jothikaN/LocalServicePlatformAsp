@@ -1,0 +1,15 @@
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\bin\Debug\net8.0\LocalServicePlatform.Application.deps.json
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\bin\Debug\net8.0\LocalServicePlatform.Application.dll
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\bin\Debug\net8.0\LocalServicePlatform.Application.pdb
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\bin\Debug\net8.0\LocalServicePlatform.Domain.dll
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\bin\Debug\net8.0\LocalServicePlatform.Domain.pdb
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.csproj.AssemblyReference.cache
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.AssemblyInfoInputs.cache
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.AssemblyInfo.cs
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.csproj.CoreCompileInputs.cache
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalSer.049C6A37.Up2Date
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.dll
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\refint\LocalServicePlatform.Application.dll
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\LocalServicePlatform.Application.pdb
+C:\Users\94770\source\mvc\LocalServicePlatform.Application\obj\Debug\net8.0\ref\LocalServicePlatform.Application.dll

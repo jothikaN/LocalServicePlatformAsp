@@ -1,0 +1,117 @@
+﻿@using LocalServicePlatform.Domain.ApplicationEnums
+@using static LocalServicePlatform.Domain.ApplicationEnums.ApplicationEnums
+@model Bookings
+
+<div class="container" style="margin-top:150px;">
+    <div class="card">
+        <div class="card-header text-center text-uppercase">
+            Booking Details
+        </div>
+        <div class="card-body">
+            <div class="row">
+
+                <div class="col-md-8">
+                    
+                    <div class=" row">
+                        <div class="col-md-4">
+                            <p class="card-text text-uppercase"><strong>Customer Name</strong></p>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="card-text">:@Model.Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Phone number</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">:@Model.PhoneNumber</p>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Service</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">:@Model.Services.Name</p>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Service</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">:@Model.PhoneNumber</p>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Service Category</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">:@Model.ServiceCategories.Name</p>
+                    </div>
+                </div> 
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Service Type</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">@((ServiceType)Model.SType)</p>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Service Type</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">@((WorkType)Model.WType)</p>
+                    </div>
+                </div>
+             
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="card-text text-uppercase"><strong>Created On</strong></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <p class="card-text">: @((Model.CreatedOn == DateTime.MinValue) ? "NA" : Model.CreatedOn.ToString())</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="card-text text-uppercase"><strong>Created By</strong></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <p class="card-text">: @((Model.CreatedBy == String.Empty) ? "NA" : Model.CreatedBy)</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="card-text text-uppercase"><strong>Modified On</strong></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <p class="card-text">: @((Model.ModifiedOn == DateTime.MinValue) ? "NA" : Model.ModifiedOn.ToString())</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <p class="card-text text-uppercase"><strong>Modified By</strong></p>
+                    </div>
+                    <div class="col-sm-8">
+                        <p class="card-text">: @((Model.ModifiedBy == String.Empty) ? "NA" : Model.ModifiedBy)</p>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+        <div class="mb-3">
+           
+            <a asp-area="Customer" asp-controller="Bookings" asp-action="Index" class="btn btn-warning">Back</a>
+
+
+        </div>
+    </div>
+</div>

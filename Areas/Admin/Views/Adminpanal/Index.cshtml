@@ -1,0 +1,205 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar Example</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Add any additional CSS or meta tags you need here -->
+    <link rel="stylesheet" href="~/css/site.css"/>
+
+
+    <style>
+        .dashboard-card {
+            border-radius: 10px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #333;
+        }
+
+            .dashboard-card .icon {
+                font-size: 2.5rem;
+                margin-bottom: 10px;
+            }
+
+            .dashboard-card .title {
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-bottom: 10px;
+            }
+
+            .dashboard-card .value {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+
+            .dashboard-card.earnings-monthly {
+                border-left: 5px solid #007bff;
+            }
+
+            .dashboard-card.earnings-annual {
+                border-left: 5px solid #28a745;
+            }
+
+            .dashboard-card.tasks {
+                border-left: 5px solid #17a2b8;
+            }
+
+            .dashboard-card.pending-requests {
+                border-left: 5px solid #ffc107;
+            }
+
+        .dashboard-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+            .dashboard-header .title {
+                font-size: 2rem;
+                font-weight: bold;
+            }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-left">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="arrow"><a href="#"><i class="fa fa-tachometer"></i><br>Dashboard</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><i class="fa fa-table" aria-hidden="true"></i><br>Tables<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a class="dropdown-item " asp-area="Admin" asp-controller="Services" asp-action="Index">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="dropdown-item " asp-area="Admin" asp-controller="ServicesCategories" asp-action="Index">Service Types</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Admin" asp-controller="Roles" asp-action="Index">Roles</a>
+                            </li>
+                           
+                           
+                            <li class="nav-item">
+                                <a class="nav-link " asp-area="Customer" asp-controller="Bookings" asp-action="Index">Customer Bookings</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><i class="fa fa-file" aria-hidden="true"></i><br>Report<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Report A</a></li>
+                            <li><a href="#">Report B</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><i class="fa fa-user" aria-hidden="true"></i><br>Posts<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Customer" asp-controller="PopularPro" asp-action="Index">Popular Post</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="Admin" asp-controller="Post" asp-action="Index">Service Post</a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li><a class="nav-link text-white" asp-area="Customer" asp-controller="TaskersUpdate" asp-action="Index"><i class="fa fa-line-chart"></i><br>Taskers</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="containerr" style="margin-top:150px">
+        <div class="img" style="height:250px;">
+       <img src="~/css/business-concept-with-graphic-holography.jpg" style="height:200px; padding-right:200px;" />
+
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card earnings-monthly">
+                    <div class="icon">
+                        <i class="bi bi-calendar"></i>
+                    </div>
+                    <div class="title">Customers Count</div>
+                    <div class="value">@ViewData["CustomerCount"]</div>
+                </div>
+            </div>
+           
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card tasks">
+                    <div class="icon">
+                        <i class="bi bi-clipboard-data"></i>
+                    </div>
+                    <div class="title">Taskers Count</div>
+                    <div class="value">@ViewData["TaskerCount"]</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card earnings-annual">
+                    <div class="icon">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="title">EARNINGS (ANNUAL)</div>
+                    <div class="value">Rs.0</div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="dashboard-card pending-requests">
+                    <div class="icon">
+                        <i class="bi bi-chat-dots"></i>
+                    </div>
+                    <div class="title">PENDING REQUESTS</div>
+                    <div class="value">18</div>
+                </div>
+            </div>
+        </div>
+
+     @*    <div class="container">
+            <div class="row">
+                 <div class="col-md-6 col-lg-3">
+                      <div class="dashboard-card earnings-monthly">
+                <div class="icon">
+                    <i class="bi bi-calendar"></i>
+                </div>
+                <div class="title">Customer Count</div>
+                <div class="value">@ViewData["CustomerCount"]</</div>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+            <div class="dashboard-card tasks">
+                <div class="icon">
+                    <i class="bi bi-clipboard-data"></i>
+                </div>
+                <div class="title">Taskers Count</div>
+                <div class="value">@ViewData["TaskerCount"]</div>
+            </div>
+        </div> *@
+        
+      
+       
+    </div>
+    </div>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Add any additional content or scripts here -->
+
+</body>
+</html>

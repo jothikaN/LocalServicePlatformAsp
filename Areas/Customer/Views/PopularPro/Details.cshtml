@@ -1,0 +1,50 @@
+﻿@model PopularPro
+
+<div class="container">
+    <div class="card">
+        <div class="card-header text-center text-uppercase">
+            Service Details
+        </div>
+        <div class="card-body">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class=" row">
+                        <div class="col-md-4">
+                            <p class="card-text text-uppercase"><strong>Id</strong></p>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="card-text">:@Model.Id</p>
+                        </div>
+                    </div>
+                    <div class=" row">
+                        <div class="col-md-4">
+                            <p class="card-text text-uppercase"><strong>Service Title</strong></p>
+                        </div>
+                        <div class="col-md-8">
+                            <p class="card-text">:@Model.ProName</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" row">
+                    <div class="col-md-4">
+                        <p class="card-text text-uppercase"><strong>Description</strong></p>
+                    </div>
+                    <div class="col-md-8">
+                        <p class="card-text">:@Model.PriceDescription</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <img src="@Model.ProImage" width="100%" />
+            </div>
+        </div>
+
+        <div class="mb-3">
+            @*go to Back*@
+            <a asp-controller="PopularPro" asp-action="Index" class="btn btn-warning">Back</a>
+           
+
+        </div>
+    </div>
+</div>

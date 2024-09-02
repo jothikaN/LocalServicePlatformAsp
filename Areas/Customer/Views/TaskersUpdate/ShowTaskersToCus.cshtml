@@ -1,0 +1,193 @@
+﻿@using LocalServicePlatform.Domain.ViewModel
+@model TaskersUpdateVM
+
+
+@{
+    ViewBag.Title = "Taskers Updates";
+}
+
+  
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskers Updates</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.1/font/bootstrap-icons.min.css">
+    <style>
+        /* Custom Stylesheet */
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .containera {
+            margin-top: 150px;
+            padding: 20px;
+        }
+
+        .tasker-card {
+            transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+            border-radius: 15px; /* Increased border radius */
+            border: 4px solid #0056b3; /* Thicker dark blue border */
+            background-color: #fff;
+        }
+
+            .tasker-card:hover {
+                transform: scale(1.05);
+                box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+                background-color: #e6f7ff; /* Light blue background on hover */
+            }
+
+            .tasker-card .card-header {
+                background-color: #e6f7ff; /* Light blue background */
+                border-bottom: 1px solid #dee2e6;
+                padding: 15px;
+                text-align: center;
+            }
+
+            .tasker-card .card-footer {
+                background-color: #f8f9fa;
+                border-top: 1px solid #dee2e6;
+                padding: 10px;
+                text-align: right;
+            }
+
+        .img-fluid {
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-text {
+            color: #555;
+            margin-bottom: 0.5rem;
+        }
+
+        .btn-custom {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+            .btn-custom .bi {
+                margin-right: 5px;
+            }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-success {
+            background-color: #28a745;
+            border-color: #28a745;
+        }
+
+        .btn-secondary {
+            background-color: #6c757d;
+            border-color: #6c757d;
+        }
+
+        .form-select,
+        .form-control {
+            border-radius: 5px;
+        }
+
+        .text-muted {
+            color: #6c757d !important;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="containera">
+        <div class="row mb-4">
+            <div class="col-12">
+                <form method="post" asp-action="ShowTaskersUpdates">
+                    <div class="row align-items-center justify-content-center">
+                        <h1 class="text-center">Our taskers </h1>
+                        <div class="col-6 col-md-3 mb-1">
+                            <label class="form-label">Description</label>
+                            <input asp-for="searchBox" class="form-control" placeholder="Search by description" />
+                        </div>
+                        <div class="col-6 col-md-3 mb-1">
+                            <label class="form-label">Location</label>
+                            <select asp-for="Location" asp-items="@(new SelectList(Enum.GetValues(typeof(LocalServicePlatform.Domain.ApplicationEnums.ApplicationEnums.Location)).Cast<LocalServicePlatform.Domain.ApplicationEnums.ApplicationEnums.Location>().Select(l => new SelectListItem { Value = l.ToString(), Text = l.ToString() }), "Value", "Text"))" class="form-select">
+                                <option value="">--Select Location--</option>
+                            </select>
+                        </div>
+                        <div class="col-6 col-md-3 mb-1">
+                            <button class="btn btn-success form-control" type="submit">Search</button>
+                        </div>
+                        <div class="col-6 col-md-3 mb-1">
+                            <a href="@Url.Action("ShowTaskersUpdates", new { page = 1, resetFilter = true })" class="btn btn-primary form-control">Reset</a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        @if (Model.TaskersUpdates.Any())
+        {
+            <div class="row">
+                @foreach (var item in Model.TaskersUpdates)
+                {
+                    <div class="col-12 col-md-6 col-lg-4 mb-3">
+                        <div class="tasker-card card border-2 shadow-sm rounded">
+                            <div class="card-header text-center">
+                                <h3><u>@item.Name</u></h3>
+                                <p class="text-dark mb-0" style="font-size:1.2em;">Location: @item.Location</p>
+                                <p class="text-dark" style="font-size:1.2em;">Tasks:<b> @item.Description</b></p>
+                                <p class="text-dark" style="font-size:1.2em;">TelNo: @item.PhoneNumber</p>
+                                <p class="text-dark" style="font-size:1.2em;">Email: @item.Email</p>
+                            </div>
+                            <div class="card-body text-center">
+                                @if (!string.IsNullOrEmpty(item.ServiceImage))
+                                {
+                                    <img src="@item.ServiceImage" class="img-thumbnail mb-1" alt="Service Image" style="height:250px;" >
+                                }
+                                else
+                                {
+                                    <p class="text-muted">No image available</p>
+                                }
+                            </div>
+                            <div class="card-footer text-end">
+                                <a asp-area="Admin" asp-controller="Email" asp-action="Index" asp-route-id="@item.Id"
+                                   class="btn btn-success">
+                                    <i class="bi bi-envelope"></i> Book Tasker
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        }
+        else
+        {
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center text-uppercase text-warning pt-4">No Records to Show</h2>
+                </div>
+            </div>
+        }
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

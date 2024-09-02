@@ -1,0 +1,121 @@
+﻿@using LocalServicePlatform.Domain.ViewModel
+@model BookingVM
+
+
+
+<div class="container" style="margin-top:150px;"></div>
+    <div class="row mb-4">
+        
+        <div class="col-md-6 text-uppercase">
+
+            <h2 class="text-black-50 "><i class="bi bi-balloon-heart"></i>  Booking List   <i class="bi bi-balloon-heart"></i></h2>
+
+        </div>
+
+        <a asp-area="Admin" asp-controller="Bookings" asp-action="Create" class="btn btn-outline-success"><i class="bi bi-plus-circle-fill"></i> Create</a>
+    </div>
+    <hr />
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <form method="post">
+                <div class="row align-items-center justify-content-center">
+                   
+                    <div class="col-6 col-md-2 mb-1">
+                        <label class="form-label">Location</label>
+                    </div>
+                    <div class="col-6 col-md-2 mb-1">
+                        <label class="form-label">Service Categories</label>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3"></div>
+                    <div class="col-6 col-md-2 mb-3"></div>
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    
+                    <div class="col-6 col-md-2 mb-3">
+                        <select asp-for="@Model.Location" asp-items="@Model.LocationList" class="form-select">
+                            <option value="@Guid.Empty">--All--</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <select asp-for="@Model.ServiceCategoryId" asp-items="@Model.ServiceCategoryList" class="form-select">
+                            <option value="@Guid.Empty">--All--</option>
+                        </select>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <button class="btn btn-success form-control" type="submit">Search</button>
+                    </div>
+                    <div class="col-6 col-md-2 mb-3">
+                        <a href="@Url.Action("Index", new { page = 1, resetFilter = true })" class="btn btn-primary form-control">Reset</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+    <div class="tableContainer">
+
+    @if (Model.Booking.Count() > 0)
+    {
+        <table id="table" class="table table-bordered table-striped" style="margin-left: 100px;">
+    <thead>
+        <tr>
+            <th class="text-center">Name</th>
+            <th class="text-center">Service</th>
+            <th class="text-center">Location</th>
+            <th class="text-center">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Booking)
+        {
+            <tr>
+                <td>@item.Name</td>
+                <td>@item.Services.Name</td>
+                <td>@item.Location</td>
+                <td class="text-center">
+                    <div class="btn-group" role="group">
+                        <a asp-area="Customer" asp-controller="Bookings" asp-action="Details" asp-route-id="@item.Id"
+                           class="btn btn-info" data-toggle="tooltip" data-placement="top" title="Details">
+                            <i class="bi bi-info-circle"></i>
+                        </a>
+                      
+                        <a asp-area="Customer" asp-controller="Bookings" asp-action="Delete" asp-route-id="@item.Id"
+                           class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Delete">
+                            <i class="bi bi-trash"></i>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+        }
+        else
+        {
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-center text-uppercase text-warning pt-4">Noooo Records guys!</h2>
+                    </div>
+                </div>
+            </div>
+
+
+        }
+    
+   
+
+
+    
+</div>
+

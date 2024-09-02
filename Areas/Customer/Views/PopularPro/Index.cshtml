@@ -1,0 +1,49 @@
+﻿@model IEnumerable<PopularPro>
+
+<div class="container mt-5" >
+    <div class="card border-dark shadow bg-white rounded" style="margin-top:150px">
+        <div class="card-header text-center text-uppercase">
+            Popular Projects List
+        </div>
+        <div class="card-body">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                       
+                        <th>Service Title</th>
+                        <th>Description</th>
+                        <th>Image</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            
+                            <td>@item.ProName</td>
+                            <td>@item.PriceDescription</td>
+                            <td>
+                                @if (!string.IsNullOrEmpty(item.ProImage))
+                                {
+                                    <img src="@item.ProImage" alt="Image of @item.ProName" style="width: 100px; height: auto;" />
+                                }
+                               
+                            </td>
+                            <td>
+                                <a asp-controller="PopularPro" asp-action="Details" asp-route-id="@item.Id" class="btn btn-info btn-sm">Details</a>
+                                <a asp-controller="PopularPro" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning btn-sm">Edit</a>
+                                <a asp-controller="PopularPro" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Delete</a>
+                                  
+                                
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="card-footer text-center">
+            <a asp-controller="PopularPro" asp-action="Create" class="btn btn-success">Create New</a>
+        </div>
+    </div>
+</div>

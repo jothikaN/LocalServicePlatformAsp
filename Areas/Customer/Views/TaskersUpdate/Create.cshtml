@@ -1,0 +1,174 @@
+﻿@using LocalServicePlatform.Domain.ViewModel
+@model TaskersUpdateVM
+ @* 
+<div class="BookingFormcontainer" style="margin-top:150px">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h2 class="text-uppercase text-center">Update TaskersUpdate</h2>
+        </div>
+    </div>
+    <div class="row mt-2 justify-content-center">
+        <div class="col-md-8 border p-4">
+            <form method="post" enctype="multipart/form-data">
+
+                <div class="row mb-3">
+                    <div class="form-group">
+                        <label asp-for="TaskersUpdate.Name"></label>
+                        <input asp-for="TaskersUpdate.Name" class="form-control" />
+                        <span asp-validation-for="TaskersUpdate.Name" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TaskersUpdate.Description"></label>
+                        <input asp-for="TaskersUpdate.Description" class="form-control" />
+                        <span asp-validation-for="TaskersUpdate.Description" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="TaskersUpdate.PhoneNumber"></label>
+                        <input asp-for="TaskersUpdate.PhoneNumber" class="form-control" />
+                        <span asp-validation-for="TaskersUpdate.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-12">
+                        <label asp-for="TaskersUpdate.Location" class="form-label"></label>
+                        <select asp-for="TaskersUpdate.Location" asp-items="Model.LocationList" class="form-select">
+                        </select>
+                        <span asp-validation-for="TaskersUpdate.Location" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-12">
+                        <label asp-for="TaskersUpdate.ServiceId" class="form-label"></label>
+                        <select asp-for="TaskersUpdate.ServiceId" asp-items="Model.ServiceList" class="form-select">
+                        </select>
+                        <span asp-validation-for="TaskersUpdate.ServiceId" class="text-danger"></span>
+                    </div>
+                    <div class="mb-3">
+                        <label asp-for="TaskersUpdate.ServiceImage" class="form-label"></label>
+                        <input type="file" name="files" id="uploadBox" class="form-control" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-end">
+                        <a asp-area="Admin" asp-controller="Tasker" asp-action="Index" class="btn btn-danger">Back</a>
+                        <button type="submit" class="btn btn-success">Create</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div> *@
+ 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update TaskersUpdate</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .BookingFormcontainer {
+            margin-top: 150px;
+        }
+
+        .form-container {
+            display: flex;
+            align-items: stretch;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-section, .image-section {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-section {
+            background-color: #ffffff;
+            flex: 1;
+        }
+
+        .image-section {
+            background: url('https://img.freepik.com/free-photo/maintenance-repair-works-renovation-concept_343059-3524.jpg?t=st=1722163108~exp=1722166708~hmac=3a680641c636e1f7eeca4c1eac7112f15b4e95ab2c5e3adb7a459853ddd9fce1&w=900') no-repeat center center;
+            background-size: cover;
+            flex: 1;
+            height: auto;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control, .form-select {
+            margin-bottom: 1rem;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container BookingFormcontainer">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <h2 class="text-uppercase text-center mb-4">Update TaskersUpdate</h2>
+            </div>
+        </div>
+        <div class="row mt-2 justify-content-center">
+            <div class="col-md-12 form-container">
+                <div class="form-section border p-4 rounded">
+                    <form method="post" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Name" class="form-label"></label>
+                            <input asp-for="TaskersUpdate.Name" class="form-control" />
+                            <span asp-validation-for="TaskersUpdate.Name" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Description" class="form-label"></label>
+                            <input asp-for="TaskersUpdate.Description" class="form-control" />
+                            <span asp-validation-for="TaskersUpdate.Description" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.PhoneNumber" class="form-label"></label>
+                            <input asp-for="TaskersUpdate.PhoneNumber" class="form-control" />
+                            <span asp-validation-for="TaskersUpdate.PhoneNumber" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Email" class="form-label"></label>
+                            <input asp-for="TaskersUpdate.Email" class="form-control" />
+                            <span asp-validation-for="TaskersUpdate.Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Location" class="form-label"></label>
+                            <select asp-for="TaskersUpdate.Location" asp-items="Model.LocationList" class="form-select">
+                            </select>
+                            <span asp-validation-for="TaskersUpdate.Location" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.ServiceId" class="form-label"></label>
+                            <select asp-for="TaskersUpdate.ServiceId" asp-items="Model.ServiceList" class="form-select">
+                            </select>
+                            <span asp-validation-for="TaskersUpdate.ServiceId" class="text-danger"></span>
+                        </div>
+                        <div class="form-group mb-3">
+                            <label asp-for="TaskersUpdate.ServiceImage" class="form-label"></label>
+                            <input type="file" name="files" id="uploadBox" class="form-control" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-end">
+                                <a asp-area="Customer" asp-controller="TaskersUpdate" asp-action="TaskerdetailShow" class="btn btn-danger">Back</a>
+                                <button type="submit" class="btn btn-success">Create</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="image-section"></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+

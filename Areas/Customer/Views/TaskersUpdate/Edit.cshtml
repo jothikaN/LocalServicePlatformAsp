@@ -1,0 +1,170 @@
+﻿@model LocalServicePlatform.Domain.ViewModel.TaskersUpdateVM
+
+@{
+    ViewData["Title"] = "Edit TaskersUpdate";
+}
+@* <div class="container" style="margin-top:150px;">
+<h2>Edit TaskersUpdate</h2>
+
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.Name" class="control-label"></label>
+        <input asp-for="TaskersUpdate.Name" class="form-control" />
+        <span asp-validation-for="TaskersUpdate.Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.Description" class="control-label"></label>
+        <textarea asp-for="TaskersUpdate.Description" class="form-control"></textarea>
+        <span asp-validation-for="TaskersUpdate.Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.PhoneNumber" class="control-label"></label>
+        <input asp-for="TaskersUpdate.PhoneNumber" class="form-control" />
+        <span asp-validation-for="TaskersUpdate.PhoneNumber" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.ServiceId" class="control-label"></label>
+        <select asp-for="TaskersUpdate.ServiceId" asp-items="Model.ServiceList" class="form-control"></select>
+        <span asp-validation-for="TaskersUpdate.ServiceId" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.Location" class="control-label"></label>
+        <select asp-for="TaskersUpdate.Location" asp-items="Model.LocationList" class="form-control"></select>
+        <span asp-validation-for="TaskersUpdate.Location" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TaskersUpdate.ServiceImage" class="control-label"></label>
+        <input type="file" name="file" class="form-control" />
+        <span asp-validation-for="TaskersUpdate.ServiceImage" class="text-danger"></span>
+    </div>
+
+    <input type="hidden" asp-for="TaskersUpdate.Id" />
+
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">Save</button>
+        <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+    </div>
+</form>
+
+</div> *@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit TaskersUpdate</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .form-container {
+            display: flex;
+            align-items: stretch;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+
+        .form-section, .image-section {
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .form-section {
+            background-color: #ffffff;
+            flex: 2;
+        }
+
+        .image-section {
+            background: url('https://img.freepik.com/free-photo/renovation-occupation-concept-young-handyman-wearing-protective-goggles-shirt-kit-full-tools-holding-blueprint-looking-with-excited-expression-going-have-rest-after-work_273609-7915.jpg?t=st=1722166186~exp=1722169786~hmac=22a459740d8b45c6b47e3e9994d5d53ae26dc4c5f6a31245acf949175fedaaa0&w=900') no-repeat center center;
+            background-size: cover;
+            flex: 1;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .form-label {
+            font-weight: bold;
+        }
+
+        .form-control, .form-select {
+            margin-bottom: 1rem;
+        }
+
+        .text-end {
+            text-align: end;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" style="margin-top: 150px;">
+        <h2 class="text-uppercase text-center mb-4">Edit Taskers Update</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-12 form-container">
+                <div class="form-section">
+                    <form asp-action="Edit" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Name" class="control-label form-label"></label>
+                            <input asp-for="TaskersUpdate.Name" class="form-control" placeholder="Enter Name" />
+                            <span asp-validation-for="TaskersUpdate.Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Description" class="control-label form-label"></label>
+                            <textarea asp-for="TaskersUpdate.Description" class="form-control" placeholder="Enter Description"></textarea>
+                            <span asp-validation-for="TaskersUpdate.Description" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.PhoneNumber" class="control-label form-label"></label>
+                            <input asp-for="TaskersUpdate.PhoneNumber" class="form-control" placeholder="Enter Phone Number" />
+                            <span asp-validation-for="TaskersUpdate.PhoneNumber" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.ServiceId" class="control-label form-label"></label>
+                            <select asp-for="TaskersUpdate.ServiceId" asp-items="Model.ServiceList" class="form-control">
+                                <option value="">Select Service</option>
+                            </select>
+                            <span asp-validation-for="TaskersUpdate.ServiceId" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.Location" class="control-label form-label"></label>
+                            <select asp-for="TaskersUpdate.Location" asp-items="Model.LocationList" class="form-control">
+                                <option value="">Select Location</option>
+                            </select>
+                            <span asp-validation-for="TaskersUpdate.Location" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="TaskersUpdate.ServiceImage" class="control-label form-label"></label>
+                            <input type="file" name="file" class="form-control" />
+                            <span asp-validation-for="TaskersUpdate.ServiceImage" class="text-danger"></span>
+                        </div>
+
+                        <input type="hidden" asp-for="TaskersUpdate.Id" />
+
+                        <div class="form-group text-end">
+                            <button type="submit" class="btn btn-primary">Save</button>
+                           <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="btn btn-warning">Back</a>
+                        </div>
+                    </form>
+                </div>
+                <div class="image-section"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

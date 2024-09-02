@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model IdentityRole
+
+<div class="row" style="margin-top:150px">
+    <div class="col-md-6">
+        <form method="post">
+            <h5>Create New Role</h5>
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating mb-3">
+                <input asp-for="Name" class="form-control" aria-required="true" />
+                <label asp-for="Name">Role Name</label>
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="row-mb-3">
+                <button type="submit" class="btn btn-primary">Save</button>
+                <a asp-controller="Roles" asp-action="Index" class="btn btn-warning">Back</a>
+            </div>
+        </form>
+    </div>
+</div>
+

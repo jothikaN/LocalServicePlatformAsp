@@ -1,0 +1,457 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\94770\\source\\mvc\\FinProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\views\\taskersupdate\\showtaskerstocus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\views\\taskersupdate\\showtaskerstocus.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\views\\email\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\views\\email\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\controllers\\taskersupdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\controllers\\taskersupdatecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\servicescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\views\\taskersupdate\\taskerdetailshow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\views\\taskersupdate\\taskerdetailshow.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\views\\taskersupdate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\views\\taskersupdate\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\views\\taskersupdate\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\views\\taskersupdate\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC40058-FD8D-425E-A3A9-1D370FFA1CF1}|..\\LocalServicePlatform.Infrastructure\\LocalServicePlatform.Infrastructure.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.infrastructure\\repositories\\taskerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D55EC55-074A-4560-94C5-24E74E5BE96E}|..\\LocalServicePlatform.Application\\LocalServicePlatform.Application.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.application\\contracts\\presistance\\itaskerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666AD878-4514-4A6E-9C20-2286B4FFBFA9}|..\\LocalServicePlatform.Domain\\LocalServicePlatform.Domain.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.domain\\viewmodel\\taskersupdatevm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC40058-FD8D-425E-A3A9-1D370FFA1CF1}|..\\LocalServicePlatform.Infrastructure\\LocalServicePlatform.Infrastructure.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.infrastructure\\common\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666AD878-4514-4A6E-9C20-2286B4FFBFA9}|..\\LocalServicePlatform.Domain\\LocalServicePlatform.Domain.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.domain\\models\\taskersupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC40058-FD8D-425E-A3A9-1D370FFA1CF1}|..\\LocalServicePlatform.Infrastructure\\LocalServicePlatform.Infrastructure.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.infrastructure\\repositories\\taskerservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\controllers\\popularprocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\controllers\\popularprocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D55EC55-074A-4560-94C5-24E74E5BE96E}|..\\LocalServicePlatform.Application\\LocalServicePlatform.Application.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.application\\contracts\\presistance\\itaskerservicerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC40058-FD8D-425E-A3A9-1D370FFA1CF1}|..\\LocalServicePlatform.Infrastructure\\LocalServicePlatform.Infrastructure.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.infrastructure\\unitofwork\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\rolescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\emailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\adminpanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\adminpanalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666AD878-4514-4A6E-9C20-2286B4FFBFA9}|..\\LocalServicePlatform.Domain\\LocalServicePlatform.Domain.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.domain\\models\\taskersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D55EC55-074A-4560-94C5-24E74E5BE96E}|..\\LocalServicePlatform.Application\\LocalServicePlatform.Application.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.application\\contracts\\presistance\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EC40058-FD8D-425E-A3A9-1D370FFA1CF1}|..\\LocalServicePlatform.Infrastructure\\LocalServicePlatform.Infrastructure.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.infrastructure\\migrations\\taskerdetbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\admin\\controllers\\servicescategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\admin\\controllers\\servicescategoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|c:\\users\\94770\\source\\mvc\\finproject\\areas\\customer\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEF522B3-63E1-4C55-B00E-612A0E86FA75}|FinProject.csproj|solutionrelative:areas\\customer\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{666AD878-4514-4A6E-9C20-2286B4FFBFA9}|..\\LocalServicePlatform.Domain\\LocalServicePlatform.Domain.csproj|c:\\users\\94770\\source\\mvc\\localserviceplatform.domain\\models\\bookings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Views\\Email\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Email\\Index.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Views\\Email\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Email\\Index.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T17:00:16.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\TaskersUpdate\\Create.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\TaskersUpdate\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:51:08.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowTaskersToCus.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\ShowTaskersToCus.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\TaskersUpdate\\ShowTaskersToCus.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\ShowTaskersToCus.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\TaskersUpdate\\ShowTaskersToCus.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:51:13.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Taskerdetailshow.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Taskerdetailshow.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\TaskersUpdate\\Taskerdetailshow.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Taskerdetailshow.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\TaskersUpdate\\Taskerdetailshow.cshtml",
+              "ViewState": "AQIAAFcAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:51:17.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskersUpdateController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\TaskersUpdateController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\TaskersUpdateController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\TaskersUpdateController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\TaskersUpdateController.cs",
+              "ViewState": "AQIAADoBAAAAAAAAAAAAAE4BAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T14:01:59.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "TaskerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerRepository.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerRepository.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerRepository.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerRepository.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:02:31.841Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\PostController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\PostController.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:04:08.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServicesController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\ServicesController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ServicesController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\ServicesController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ServicesController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:07:07.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-06T16:40:27.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\TaskersUpdate\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Views\\TaskersUpdate\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\TaskersUpdate\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T16:51:12.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Infrastructure\\Common\\ApplicationDbContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAkwCUAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:36:25.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ITaskerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerRepository.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerRepository.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerRepository.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:32:47.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAEcAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-05T03:29:28.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TaskersUpdateVM.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\ViewModel\\TaskersUpdateVM.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Domain\\ViewModel\\TaskersUpdateVM.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\ViewModel\\TaskersUpdateVM.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Domain\\ViewModel\\TaskersUpdateVM.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:28:57.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskersUpdate.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\TaskersUpdate.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Domain\\Models\\TaskersUpdate.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\TaskersUpdate.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Domain\\Models\\TaskersUpdate.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAYwCQAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T17:25:45.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TaskerServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerServiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerServiceRepository.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerServiceRepository.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Infrastructure\\Repositories\\TaskerServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T17:11:17.013Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PopularProController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\PopularProController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\PopularProController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\PopularProController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\PopularProController.cs",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAIwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:21:32.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ITaskerServiceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerServiceRepository.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerServiceRepository.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerServiceRepository.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\ITaskerServiceRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T16:40:43.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Infrastructure\\UnitOfWork\\UnitOfWork.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAADYAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T13:47:57.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RolesController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\RolesController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\RolesController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\RolesController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\RolesController.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:04:09.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "EmailController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\EmailController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\EmailController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\EmailController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\EmailController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:04:07.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AdminpanalController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\AdminpanalController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\AdminpanalController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\AdminpanalController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\AdminpanalController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAYwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:04:05.839Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "TaskersService.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\TaskersService.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Domain\\Models\\TaskersService.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\TaskersService.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Domain\\Models\\TaskersService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:19:34.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "taskerdetBase.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Migrations\\taskerdetBase.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Infrastructure\\Migrations\\taskerdetBase.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Infrastructure\\Migrations\\taskerdetBase.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Infrastructure\\Migrations\\taskerdetBase.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAB4AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T11:01:33.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Application\\Contracts\\Presistance\\IUnitOfWork.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Application\\Contracts\\Presistance\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:27:51.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ServicesCategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\ServicesCategoriesController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\ServicesCategoriesController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Admin\\Controllers\\ServicesCategoriesController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\ServicesCategoriesController.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T10:04:11.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\FinProject\\Areas\\Customer\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\BookingsController.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAQwEAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:58:55.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Bookings.cs",
+              "DocumentMoniker": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\Bookings.cs",
+              "RelativeDocumentMoniker": "..\\LocalServicePlatform.Domain\\Models\\Bookings.cs",
+              "ToolTip": "C:\\Users\\94770\\source\\mvc\\LocalServicePlatform.Domain\\Models\\Bookings.cs",
+              "RelativeToolTip": "..\\LocalServicePlatform.Domain\\Models\\Bookings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T16:59:04.46Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
